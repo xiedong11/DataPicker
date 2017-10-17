@@ -19,7 +19,7 @@ dependencies {
     compile 'com.github.xiedong11:DataPicker:1.0'
 }
 ```
-    
+   ``` groovy 
 ## Usage
 
 CustomDatePicker publishDatePicker = new CustomDatePicker(MainActivity.this, new CustomDatePicker.ResultHandler() {
@@ -37,3 +37,4 @@ CustomDatePicker publishDatePicker = new CustomDatePicker(MainActivity.this, new
                 publishDatePicker.showSpecificTime(true); // 显示时和分
                 publishDatePicker.setIsLoop(true); // 不允许循环滚动
                 publishDatePicker.show(publishStart);
+```
